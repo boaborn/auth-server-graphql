@@ -2,4 +2,11 @@
 POST http://localhost:3090/signup
 content-type: application/json
 
-{ "email": "test2@example.com", "password": "123" }
+{ "email": "test@example.com", "password": "1234" }
+
+
+###Root route
+GET http://localhost:3090
+authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1YzZiNGNhMDk1MTI1Y2EyZTA1MDNhMmMiLCJpYXQiOjE1NTA1MzU4NDA3MDd9.--HeVO27wOoPIUzF7LU4zW3fYm0KXDJzgl5caO5RrAs
+content-type: application/json
+
